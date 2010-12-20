@@ -96,7 +96,6 @@ GEM
       faraday (~> 0.4.1)
       multi_json (>= 0.0.4)
     paperclip (2.3.1.1)
-    pg (0.9.0)
     pickle (0.2.12)
     rack (1.1.0)
     rack-test (0.5.4)
@@ -177,7 +176,6 @@ DEPENDENCIES
   mysql (~> 2.8.1)
   oa-oauth
   paperclip (~> 2.3.1.1)
-  pg (~> 0.9.0)
   pickle (~> 0.2.1)
   rails (~> 2.3.5)
   rcov
