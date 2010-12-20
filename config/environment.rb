@@ -6,7 +6,7 @@ require 'teambox'
 
 Teambox::Initializer.run do |config|
   config.from_file 'teambox.yml'
-  
+  config.action_controller.relative_url_root = "/projects"
   config.action_view.sanitized_allowed_tags = 'table', 'th', 'tr', 'td'
 
   config.after_initialize do
